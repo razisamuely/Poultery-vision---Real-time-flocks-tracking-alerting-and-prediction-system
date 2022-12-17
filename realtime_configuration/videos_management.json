@@ -1,0 +1,7 @@
+{
+  "new_videos_path": "videos/downloads",
+  "new_video_table_path": "detection_management/new_videos_table.json",
+  "old_video_table_path": "detection_management/old_videos/",
+  "video_type": "mp4",
+  "delete_videos_after_processing": true
+}

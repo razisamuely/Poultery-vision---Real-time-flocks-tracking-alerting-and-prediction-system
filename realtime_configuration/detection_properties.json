@@ -1,0 +1,9 @@
+{
+  "videos_path": "videos/downloads",
+  "pictures_path":"videos/pictures" ,
+  "checkpoint_num": "33",
+  "video_format": "mp4",
+  "output_path": "bi/data/counters_data/events",
+  "new_videos_table_path": "detection_management/new_videos_table.json",
+  "No_videos_for_detection_sleep_time_while_loop": 10
+}

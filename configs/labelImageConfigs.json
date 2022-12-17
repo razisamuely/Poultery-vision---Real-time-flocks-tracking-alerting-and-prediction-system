@@ -1,0 +1,11 @@
+{
+  "LABEL_IMAGE_COMMANDES": "label_image_commands.txt",
+  "IMAGE_PATH": "training_data_preparation/augmented_images_and_xml",
+  "LABELIMG_PATH": "Tensorflow/labelimg",
+  "labels": [
+    "drinking",
+    "eating",
+    "standing",
+    "laying"
+  ]
+}

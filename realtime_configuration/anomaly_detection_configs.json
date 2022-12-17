@@ -1,0 +1,33 @@
+{ "pictures_path": "pictures",
+  "camera": 301,
+  "hours_back": 28,
+  "alerts_minutes_back": 10,
+  "querying_minutes_back": 10,
+  "night_filter_seconds": 900,
+  "start_time": "now",
+  "big_query": {
+    "project": "rational-hydra-337609",
+    "table": "frame_counters",
+    "sub_table": "frame_counter_NirIsrael_brn1_cy2_20_07_2022",
+    "columns": [
+      "freeFS_counter",
+      "freeFSN_counter",
+      "movement",
+      "event_time",
+      "diff_lower",
+      "diff_upper",
+      "cnt"
+    ]
+  },
+  "anomaly_columns": [
+    "movement",
+    "freeFS_counter",
+    "diff_lower",
+    "diff_upper"
+  ],
+  "filters": {
+    "movement_thresh": 3,
+    "difflower_thresh": 1,
+    "diffupper_thresh": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "CUSTOM_MODEL_NAME": "drinking_chickens_3",
+  "PRETRAINED_MODEL_NAME": "ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8",
+  "PRETRAINED_MODEL_URL": "http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz",
+  "TF_RECORD_SCRIPT_NAME": "generate_tfrecord.py",
+  "LABEL_MAP_NAME": "label_map.pbtxt",
+  "IMAGE_PATH": "drinking-images_3",
+  "paths": {},
+  "labels": [
+ {
+	"name":"drinking",
+	"id":1
+},
+ {
+	"name":"eating_s",
+	"id":2
+},
+ {
+	"name":"eating_24",
+	"id":3
+},
+ {
+	"name":"freeFS",
+	"id":4
+},
+ {
+	"name":"eating_g",
+	"id":5
+},
+ {
+	"name":"drinking_g",
+	"id":6
+},
+ {
+	"name":"freeD",
+	"id":7
+},
+ {
+	"name":"freeDC",
+	"id":8
+},
+ {
+	"name":"eating_in",
+	"id":9
+}
+
+  ],
+  "subsets": [
+    "train",
+    "test"
+  ]
+}

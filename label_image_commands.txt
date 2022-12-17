@@ -1,0 +1,12 @@
+# python --version
+# python --version
+# pip install opencv-python
+# pip install --upgrade pyqt5 lxml
+# # Mke directories for labeling project if not exist
+
+
+mkdir -p  Tensorflow/labelimg
+# Clone labeling image project
+git clone https://github.com/tzutalin/labelImg Tensorflow/labelimg
+
+python --version

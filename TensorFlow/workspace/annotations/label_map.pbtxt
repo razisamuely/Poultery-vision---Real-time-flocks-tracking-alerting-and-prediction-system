@@ -1,0 +1,60 @@
+item {
+	name:'drinking_counter'
+	id:1
+}
+item {
+	name:'eating_counter'
+	id:2
+}
+item {
+	name:'eating_24_counter'
+	id:3
+}
+item {
+	name:'freeFS_counter'
+	id:4
+}
+item {
+	name:'eating_g_counter'
+	id:5
+}
+item {
+	name:'drinking_g_counter'
+	id:6
+}
+item {
+	name:'freeD_counter'
+	id:7
+}
+item {
+	name:'freeDC_counter'
+	id:8
+}
+item {
+	name:'freeFSN_counter'
+	id:9
+}
+item {
+	name:'eating_l_counter'
+	id:10
+}
+item {
+	name:'drinking_b_counter'
+	id:11
+}
+item {
+	name:'mushroom_counter'
+	id:12
+}
+item {
+	name:'drinking_u_counter'
+	id:13
+}
+item {
+	name:'grouped_counter'
+	id:14
+}
+item {
+	name:'eating_in_counter'
+	id:15
+}
